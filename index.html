@@ -63,7 +63,8 @@
       {"@type": "LocationFeatureSpecification", "name": "Parking"},
       {"@type": "LocationFeatureSpecification", "name": "Coin Changer"},
       {"@type": "LocationFeatureSpecification", "name": "Attendant on Site"},
-      {"@type": "LocationFeatureSpecification", "name": "Large Capacity Machines"}
+      {"@type": "LocationFeatureSpecification", "name": "Large Capacity Machines"},
+      {"@type": "LocationFeatureSpecification", "name": "Vending Machines (Snacks, Beverages, Soap)"}
     ]
   }
   </script>
@@ -165,9 +166,13 @@
         <p><span class="en">Modern self-service washers and dryers in South Los Angeles. Clean, affordable, and open 7 days a week.</span><span class="es">Lavadoras y secadoras modernas de autoservicio en el Sur de Los &Aacute;ngeles. Limpio, econ&oacute;mico y abierto los 7 d&iacute;as de la semana.</span></p>
         <div class="hero-badges">
           <span class="hero-badge en">&#9203; Open 6 AM – 10 PM</span>
+          <span class="hero-badge en">&#9200; Last Wash 8:30 PM</span>
+          <span class="hero-badge en">&#128101; Attendant: 9–11 AM, 3–4:30 PM, 7–10 PM</span>
           <span class="hero-badge en">&#127359; Free Parking</span>
           <span class="hero-badge en">&#128170; 80 lb Washers</span>
           <span class="hero-badge es">&#9203; Abierto 6 AM – 10 PM</span>
+          <span class="hero-badge es">&#9200; &Uacute;ltimo Lavado 8:30 PM</span>
+          <span class="hero-badge es">&#128101; Asistente: 9–11 AM, 3–4:30 PM, 7–10 PM</span>
           <span class="hero-badge es">&#127359; Estacionamiento Gratis</span>
           <span class="hero-badge es">&#128170; Lavadoras de 80 lb</span>
         </div>
@@ -185,7 +190,7 @@
           <div>
             <span class="section-label"><span class="en">About Us</span><span class="es">Nosotros</span></span>
             <h2><span class="en">Your Neighborhood Laundromat in South Los Angeles</span><span class="es">Su Lavander&iacute;a de Barrio en el Sur de Los &Aacute;ngeles</span></h2>
-            <p><span class="en">Since 2021, Sunshine Coin Laundry has been serving the Los Angeles community with a clean, modern, and welcoming laundry experience. Located on Vermont Ave in the heart of South LA, we provide top-quality machines, a comfortable atmosphere, and the best value in the neighborhood.</span><span class="es">Desde 2021, Sunshine Coin Laundry ha servido a la comunidad de Los &Aacute;ngeles con una experiencia de lavander&iacute;a limpia, moderna y acogedora. Ubicados en Vermont Ave en el coraz&oacute;n del Sur de LA, ofrecemos m&aacute;quinas de alta calidad, un ambiente c&oacute;modo y el mejor valor del vecindario.</span></p>
+            <p><span class="en">This laundromat has been a neighborhood staple since the 1990s. In recent years, CC Laundry System LLC took over and has been making major improvements and renovations to bring you the most affordable, reliable, fast, and clean wash in the neighborhood. Located on Vermont Ave in the heart of South LA, we provide top-quality machines, a comfortable atmosphere, and the best value around.</span><span class="es">Esta lavander&iacute;a ha sido un pilar del vecindario desde los a&ntilde;os 90. En los &uacute;ltimos a&ntilde;os, CC Laundry System LLC tom&oacute; el mando y ha realizado grandes mejoras y renovaciones para ofrecerle el lavado m&aacute;s econ&oacute;mico, confiable, r&aacute;pido y limpio del vecindario. Ubicados en Vermont Ave en el coraz&oacute;n del Sur de LA, ofrecemos m&aacute;quinas de alta calidad, un ambiente c&oacute;modo y el mejor valor de la zona.</span></p>
             <p><span class="en">Whether you're washing a week's worth of clothes or a king-sized comforter, our facility has the right machine for the job — including 80 lb washers and 75 lb dryer tumblers.</span><span class="es">Ya sea que est&eacute; lavando la ropa de toda la semana o un edred&oacute;n tama&ntilde;o king, nuestras instalaciones tienen la m&aacute;quina adecuada, incluyendo lavadoras de 80 lb y secadoras de 75 lb.</span></p>
             <a href="./about.html" class="btn btn-secondary mt-16"><span class="en">Learn More About Us</span><span class="es">Conozca M&aacute;s Sobre Nosotros</span></a>
           </div>
@@ -252,6 +257,16 @@
             <div class="card-icon" aria-hidden="true">&#128176;</div>
             <h3>Cambio de Monedas</h3>
             <p>&iquest;Olvid&oacute; las monedas? No hay problema. Nuestras m&aacute;quinas de cambio siempre est&aacute;n disponibles.</p>
+          </div>
+          <div class="card en">
+            <div class="card-icon" aria-hidden="true">&#127863;</div>
+            <h3>Vending Machines</h3>
+            <p>Snack, beverage, and soap vending machines on site so you have everything you need without leaving.</p>
+          </div>
+          <div class="card es">
+            <div class="card-icon" aria-hidden="true">&#127863;</div>
+            <h3>M&aacute;quinas Expendedoras</h3>
+            <p>M&aacute;quinas expendedoras de snacks, bebidas y jab&oacute;n en el lugar para que tenga todo lo que necesita sin salir.</p>
           </div>
           <div class="card en">
             <div class="card-icon" aria-hidden="true">&#127359;</div>
@@ -435,34 +450,17 @@
             <a href="sms:+12136848487" class="btn btn-primary"><span class="en">Send Text Message</span><span class="es">Enviar Mensaje de Texto</span></a>
           </div>
           <div class="report-form-card">
-            <h3><span class="en">Or Fill Out This Form</span><span class="es">O Llene Este Formulario</span></h3>
-            <form action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
-              <div class="form-group">
-                <label for="report-name"><span class="en">Your Name</span><span class="es">Su Nombre</span></label>
-                <input type="text" id="report-name" name="name" required autocomplete="name">
-              </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="report-machine"><span class="en">Machine Number</span><span class="es">N&uacute;mero de M&aacute;quina</span></label>
-                  <input type="text" id="report-machine" name="machine_number" required placeholder="e.g. W-03, D-12">
-                </div>
-                <div class="form-group">
-                  <label for="report-time"><span class="en">Time of Issue</span><span class="es">Hora del Problema</span></label>
-                  <input type="time" id="report-time" name="time" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="report-problem"><span class="en">Describe the Problem</span><span class="es">Describa el Problema</span></label>
-                <textarea id="report-problem" name="problem" required></textarea>
-              </div>
-              <div class="form-group">
-                <label for="report-photo"><span class="en">Add Photo (optional)</span><span class="es">Agregar Foto (opcional)</span></label>
-                <input type="file" id="report-photo" name="photo" accept="image/*">
-                <div id="photo-preview"></div>
-              </div>
-              <input type="hidden" name="_subject" value="Machine Problem Report - Sunshine Coin Laundry">
-              <button type="submit" class="btn btn-primary" style="width: 100%;"><span class="en">Submit Report</span><span class="es">Enviar Reporte</span></button>
-            </form>
+            <h3><span class="en">Copy, Fill Out &amp; Text Us</span><span class="es">Copie, Complete y Env&iacute;e por Texto</span></h3>
+            <p style="margin-bottom: 12px;"><span class="en">Copy the template below, fill in your details, and text it to <strong>(213) 684-8487</strong>. You can also attach a photo.</span><span class="es">Copie la plantilla abajo, complete sus datos y env&iacute;ela por texto al <strong>(213) 684-8487</strong>. Tambi&eacute;n puede adjuntar una foto.</span></p>
+            <div class="en" style="background: var(--color-bg); border: 1px solid var(--color-border); border-radius: 8px; padding: 16px; font-family: monospace; font-size: 0.875rem; line-height: 1.8; white-space: pre-wrap; color: var(--color-text);">Name: ___
+Machine #: ___
+Time: ___
+Problem: ___</div>
+            <div class="es" style="background: var(--color-bg); border: 1px solid var(--color-border); border-radius: 8px; padding: 16px; font-family: monospace; font-size: 0.875rem; line-height: 1.8; white-space: pre-wrap; color: var(--color-text);">Nombre: ___
+M&aacute;quina #: ___
+Hora: ___
+Problema: ___</div>
+            <a href="sms:+12136848487" class="btn btn-primary" style="width: 100%; margin-top: 16px;"><span class="en">Open Text Message</span><span class="es">Abrir Mensaje de Texto</span></a>
           </div>
         </div>
       </div>
@@ -647,13 +645,13 @@
           <details class="faq-item en">
             <summary>What if a machine isn't working properly?</summary>
             <div class="faq-answer">
-              <p>Text us at <strong>(213) 684-8487</strong> with your name, the machine number, the time, and a description of the problem. Attaching a photo helps too. We'll get back to you as soon as possible and see if we can issue a refund. You can also use the <a href="#report">report form</a> on this page.</p>
+              <p>Text us at <strong>(213) 684-8487</strong> with your name, the machine number, the time, and a description of the problem. Attaching a photo helps too. We'll get back to you as soon as possible and see if we can issue a refund.</p>
             </div>
           </details>
           <details class="faq-item es">
             <summary>&iquest;Qu&eacute; pasa si una m&aacute;quina no funciona bien?</summary>
             <div class="faq-answer">
-              <p>Env&iacute;e un mensaje de texto al <strong>(213) 684-8487</strong> con su nombre, el n&uacute;mero de m&aacute;quina, la hora y una descripci&oacute;n del problema. Adjuntar una foto tambi&eacute;n ayuda. Le responderemos lo antes posible y veremos si podemos emitir un reembolso. Tambi&eacute;n puede usar el <a href="#report">formulario de reporte</a> en esta p&aacute;gina.</p>
+              <p>Env&iacute;e un mensaje de texto al <strong>(213) 684-8487</strong> con su nombre, el n&uacute;mero de m&aacute;quina, la hora y una descripci&oacute;n del problema. Adjuntar una foto tambi&eacute;n ayuda. Le responderemos lo antes posible y veremos si podemos emitir un reembolso.</p>
             </div>
           </details>
           <details class="faq-item en">

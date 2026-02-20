@@ -89,6 +89,19 @@ h4 { font-size: 1.125rem; }
 
 /* --- Bilingual Language Toggle --- */
 .es { display: none; }
+
+/* Compound selectors to override component display rules (specificity fix) */
+.hero-badge.es,
+.feature-item.es,
+.card.es,
+.testimonial-card.es,
+.blog-card.es,
+article.blog-card.es,
+.faq-item.es,
+.value-card.es,
+.blog-listing-card.es,
+.info-item.es { display: none; }
+
 html.lang-es .es { display: inline; }
 html.lang-es .en { display: none; }
 html.lang-es div.es { display: block; }
