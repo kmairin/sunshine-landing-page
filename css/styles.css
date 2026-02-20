@@ -130,6 +130,9 @@ html.lang-es .value-card.es { display: block; }
 html.lang-es .value-card.en { display: none; }
 html.lang-es .faq-item.es { display: block; }
 html.lang-es .faq-item.en { display: none; }
+a.es { display: none; }
+html.lang-es a.es { display: inline-block; }
+html.lang-es a.en { display: none; }
 html.lang-es .blog-listing-card.es { display: grid; }
 html.lang-es .blog-listing-card.en { display: none; }
 
