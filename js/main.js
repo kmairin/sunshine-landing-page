@@ -123,6 +123,23 @@
     el.textContent = new Date().getFullYear();
   });
 
+  // --- QR Code: Auto-trigger SMS report ---
+  var params = new URLSearchParams(window.location.search);
+  if (params.get('action') === 'report-sms') {
+    var reportSection = document.getElementById('report');
+    if (reportSection) {
+      var headerHeight = header ? header.offsetHeight : 0;
+      var targetPos = reportSection.getBoundingClientRect().top + window.pageYOffset - headerHeight - 16;
+      window.scrollTo({ top: targetPos, behavior: 'smooth' });
+
+      var isEs = document.documentElement.classList.contains('lang-es');
+      var smsLink = reportSection.querySelector(isEs ? 'a.btn.es' : 'a.btn.en');
+      if (smsLink) {
+        setTimeout(function () { smsLink.click(); }, 600);
+      }
+    }
+  }
+
   // --- Report Form: Photo Preview ---
   var photoInput = document.getElementById('report-photo');
   var photoPreview = document.getElementById('photo-preview');
