@@ -372,6 +372,17 @@ main {
   text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
+.hero-kicker {
+  display: block;
+  font-family: var(--font-body, inherit);
+  font-size: 0.95rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
 .hero p {
   font-size: 1.125rem;
   margin-bottom: 24px;
